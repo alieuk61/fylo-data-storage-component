@@ -1,0 +1,82 @@
+:root{
+    --Pale-Blue: hsl(243, 100%, 93%);
+    --Grayish-Blue: hsl(229, 7%, 55%);
+    --Dark-Blue: hsl(228, 56%, 26%);
+    --Very-Dark-Blue: hsl(229, 57%, 11%);
+    --Railway: 'railway', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Railway);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--Very-Dark-Blue);
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100vw 400px;
+}
+
+.buttons{
+    width: 50px;
+    height: 50px;
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.icons{
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+}
+
+.download__div{
+    height: 250px;
+    width: 400px;
+    background-color: var(--Dark-Blue);
+    border-top-right-radius: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 50px;
+}
+
+.gb-reader{
+    height: 180px;
+    width: 600px;
+    background-color: var(--Dark-Blue);
+    border-radius: 10px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: var(--Pale-Blue);
+}
+
+.range-wrapper{
+    width: 100%;
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 40px;
+    display: grid;
+    padding: 3px;
+}
+
+.slider{
+    height: 100%;
+    width: 100%;
+    -webkit-appearance: none;
+    border-radius: 40px;
+}

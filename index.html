@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icons8-database-32.png">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
+
+</head>
+<body style="display: flex; align-items: center; justify-content: center;">
+
+  <div style="display: flex; align-items: end; gap: 30px;">
+    <section class="download__div">
+    <div>
+      <img src="images/logo.svg" alt="">
+    </div>
+      <div class="icons">
+        <div class="buttons"><img src="images/icon-document.svg"></div>
+        <div class="buttons"><img src="images/icon-folder.svg" ></div>
+        <div class="buttons"><img src="images/icon-upload.svg" ></div>
+      </div>
+
+      <!--  -->
+    </section>
+    
+    <section class='gb-reader'>
+      <p>You’ve used <strong>815 GB</strong> of your storage</p>
+      <div class="range">
+        <div class="range-wrapper" style="margin-bottom: 10px;">
+          <input type="range" min="0" max="1000" value="815" class="slider" autocomplete="off">
+        </div>
+        <div style="width: 100%; display: flex; justify-content: space-between;">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+      </div>
+      <!--
+
+      185 GB Left -->
+    </section>
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
